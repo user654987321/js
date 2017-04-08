@@ -14,10 +14,7 @@
             "footer": "",
             "header": ""
         },
-        "css": {
-            "font": [],
-            "import": [https://zockercraft.net/Plug.dj/css/test.css],
-            "rule": {}
+        "css":                      "https://cdn.bssecure.net/nc-themes/plug-themes/nc331-theme.css",
         },
         "images": {
             "background": "",
