@@ -1,0 +1,40 @@
+{
+        "author": "NilssMiner99 and Dragon0697",
+        "colors": {
+        "background": "",
+        "chat": {
+            "admin": "",
+            "ambassador": "",
+            "host": "",
+            "cohost": "",
+            "manager": "",
+            "bouncer": "",
+            "residentdj": ""
+        },
+            "footer": "",
+            "header": ""
+        },
+        "css": "https://cdn.bssecure.net/nc-themes/plug-themes/nc331-theme.css",
+        },
+        "images": {
+            "background": "",
+            "booth": "",
+            "icons": {
+                "admin": "",
+                "ambassador": "",
+                "host": "",
+                "cohost": "",
+                "manager": "",
+                "bouncer": "",
+                "residentdj": ""
+            },
+            "playback": ""
+        },
+        "rules": {
+            "allowAutojoin": "true",
+            "allowAutorespond": "true",
+            "allowAutowoot": "true",
+            "allowEmotes": "true",
+            "allowShowingMehs": "true"
+        }
+}
