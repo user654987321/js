@@ -14,8 +14,10 @@
             "footer": "",
             "header": ""
         },
-        {
-        "css": "https://cdn.bssecure.net/nc-themes/plug-themes/nc331-theme.css",
+        "css": {
+            "font": [],
+            "import": ["https://cdn.bssecure.net/nc-themes/plug-themes/nc331-theme.css"],
+            "rule": {}
         },
         "images": {
             "background": "",
