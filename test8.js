@@ -6249,7 +6249,7 @@ console.info("[p0ne] completely initialized in %dms!", p0ne.loaded - p0ne.starte
 	  setup: function(arg$){
 	    var css, addListener, $create, prevTooltipSetting, sum, lastSongDur, tooltipIntervalID, showingTooltip, $nextMediaLabel, $eta, $etaText, $etaTime, getAvgDuration, hist, l, tinyhist, i$, i, lastETA, this$ = this;
 	    css = arg$.css, addListener = arg$.addListener, $create = arg$.$create;
-	    css('etaTimer', '.p0ne-eta {position: absolute;}#your-next-media>span {width: auto !important;right: 50px !imprtant;}');
+	    css('etaTimer', '.p0ne-eta {position: absolute;right: 50px !important}#your-next-media>span {width: auto !important;right: 50px !imprtant;}');
 	    sum = lastSongDur = tooltipIntervalID = 0;
 	    showingTooltip = false;
 	    $nextMediaLabel = $('#your-next-media > span');
