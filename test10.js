@@ -11336,7 +11336,7 @@ if(user.isStaff && !user.isStaff) {
 	      if (m.moduleName === 'p0neSettings') {
 	        $('#p0ne-menu').css({
 	          bottom: 54 + 21
-			  left: 50
+                  left: 50px
 	        });
 	      }
 	    });
