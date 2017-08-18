@@ -128,7 +128,7 @@ a, body, button, input, select, textarea{
 }
 #player-controller .right ul li a.dubdown.voted span,
 #player-controller .right ul li a.dubdown:hover:not(.voted) .icon-arrow-down {
-    color: #FF4060;
+    color: #FF2929;
 }
 #player-controller .right ul li a:hover span.icon-heart:before,
 #player-controller .right ul li a.add-to-playlist-button.grabbed span,
