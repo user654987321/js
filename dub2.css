@@ -116,6 +116,7 @@ a, body, button, input, select, textarea{
 #player-controller .right ul li a.dubup:hover:not(.voted) .icon-arrow-up {
     color: #93CC5A;
 }
+
 #player-controller .right ul li a,
 #player-controller .right ul li a.dubup:hover:not(.voted) span,
 #player-controller .right ul li a.dubup .icon-arrow-up,
@@ -130,6 +131,10 @@ a, body, button, input, select, textarea{
 #player-controller .right ul li a.dubdown:hover:not(.voted) .icon-arrow-down {
     color: #FF2929;
 }
+#player-controller .right ul li .add-to-playlist-button .icon-downvote, #player-controller .right ul li .dubdown .icon-downvote {
+   color: #ff2929;
+}
+
 #player-controller .right ul li a:hover span.icon-heart:before,
 #player-controller .right ul li a.add-to-playlist-button.grabbed span,
 #player-controller .right ul li a.add-to-playlist-button.grabbed .icon-heart:before {
