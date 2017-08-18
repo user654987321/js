@@ -116,6 +116,9 @@ a, body, button, input, select, textarea{
 #player-controller .right ul li a.dubup:hover:not(.voted) .icon-arrow-up {
     color: #93CC5A;
 }
+#player-controller .right ul li .dubup .icon-upvote{
+    color: #93CC5A;
+}
 
 #player-controller .right ul li a,
 #player-controller .right ul li a.dubup:hover:not(.voted) span,
