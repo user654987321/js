@@ -63,7 +63,7 @@ a, body, button, input, select, textarea{
 #main-room-active-link .room-name:after {
     content: " Sample text";
     display: block;
-    position: absolute;
+    position: relative;
     margin-top: -24px;
     margin-left: 166px;
 }
@@ -614,6 +614,8 @@ ul.avatar-list .userid-56208ef772fbd14400119c64 p.dubs {
 /* Video (Main player - left) */
     /* Header */
 #main_player {
+    position: relative;
+    top: 50px !important;
     background: rgba(15,15,15,0.66);
     border-radius: 0 0 0.5rem 0.5rem;
     border-top: 1px solid #878c8e;
