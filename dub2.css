@@ -329,7 +329,7 @@ a, body, button, input, select, textarea{
     color: #0ff!important;
 }
 .system-error {
-    color: #f0f;
+    color: #ff2929;
 }
 .chat-system-joined,
 .system-join,
