@@ -10,6 +10,9 @@ a, body, button, input, select, textarea{
 #header-global .header-left-navigation a.room-active-link.active-room .icon-chevron {
     color: #5A93CC;
 }
+#dubinfo-preview.dubplus-downdubs-unauthorized{
+    colour; #ff2929;
+}
 #warning {
     background: #935ACC;
     color: #222229;
