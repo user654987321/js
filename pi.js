@@ -3805,7 +3805,7 @@
 													if (settings.userLevelUp && message.p.level) {
 														pi._tool.log(`${API.getUser(message.p.i).username} just reached level ${message.p.level}!`, 'info');
 													} else if (message.p.badge || message.p.avatarID) {
-														// do not log it
+														// do not log it.
 													} else {
 														console.log(message);
 													}
