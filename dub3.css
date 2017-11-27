@@ -1256,3 +1256,9 @@ li.for_content_li:hover .for_content_off {
 .system-dubdown, .system-userddub {
     color: #ff2929 !important;
 }
+.snooze_btn::after {
+    content: '' !important;
+    vertical-align: top;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
