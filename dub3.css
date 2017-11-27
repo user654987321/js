@@ -1250,3 +1250,6 @@ li.for_content_li:hover .for_content_off {
 .dubplus-icon{
     left: 10px !important
 }
+#chat .chat-container .chat-messages .chat-main li.system{
+    color: #ff2929 !important;
+}
