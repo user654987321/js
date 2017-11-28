@@ -1,0 +1,409 @@
+@-moz-document domain("plug.dj") {
+/*
+  ____  _               _____ _      
+ |  _ \| |_   _  __ _  |  ___(_)_  __
+ | |_) | | | | |/ _` | | |_  | \ \/ /
+ |  __/| | |_| | (_| | |  _| | |>  < 
+ |_|   |_|\__,_|\__, | |_|   |_/_/\_\
+                |___/                
+*/
+#androidbadge-menu{
+   top: 100px !important;
+}
+#iosbadge-menu{
+   top: 100px !important;
+}
+.html5-video-player .ad-overlay{
+   right: 100000px !important;
+}
+.html5-video-player .ad-overlay>.ima-container{
+   right: 100000px !important;
+}
+.html5-video-player .ad-overlay>.ima-container>*{
+   right: 100000px !important;
+}
+#playlist-meta.sub #subscribebtn-menu{
+   right: 100000px !important;
+}/*
+.cm .userInfo{
+    color: #FF2929 !important;
+}*/
+.social-menu .signup{
+    top: 100px !important
+}
+#subscribebtn-menu{
+    top: 100px !important
+}
+#footer-user .info .pp {
+    position: relative;
+}
+.communities .box, .jspContainer{
+    margin-top: 0px !important;
+    height: 887px;
+}
+.media-list {
+    position: relative;
+    z-index: 1;
+    overflow: auto;
+    width: 100%;
+    height: 950px !important;
+    font-size: 14px;
+}
+}
+
+@-moz-document domain("plug.dj") {
+/*
+  _A___  _               _____ _                         
+ |  _ \| |_   _  __ _  |_   _| |__   ___ _ __ ___   ___ 
+ | |_) | | | | |/ _` |   | | | '_ \ / _ \ '_ ` _ \ / _ \
+ |  __/| | |_| | (_| |   | | | | | |  __/ | | | | |  __/
+ |_|   |_|\__,_|\__, |   |_| |_| |_|\___|_| |_| |_|\___|
+                |___/  
+*/
+
+/*FIM background*/ 
+#app {
+    background: url("http://i.imgur.com/ARUVtW0.png") fixed center center / cover !important;
+}
+
+/*Radiant background*/ /*
+#app {
+    background: url("http://i.imgur.com/zZYfpSU.png") fixed center center / cover !important;
+}*/
+#app-menu{
+    background-color: rgba(37, 37, 37, .8);
+}
+/*
+#history-panel{
+    background: rgba(0, 0, 0, .9);
+}*/
+
+/*Fim blur background*/
+/*
+#history-panel, .popout, #chatlog, .app-right, #playlist-panel, #playlist-panel .actions, #user-rollover, #footer-user .back, #dashboard, .pop-menu, .p0ne-song-info, .p0ne-settings {
+    background: url(http://i.imgur.com/bdYhEez.png) fixed center center / cover !important;
+}*/
+
+/*Fim blur background*/
+
+#history-panel, .popout, #chatlog, .app-right, #playlist-panel, #playlist-panel .actions, #user-rollover, #footer-user .back, #dashboard, .pop-menu, .p0ne-song-info, .p0ne-settings {
+    background: url(https://i.imgur.com/Vkjxhpk.png) !important;
+}/*
+#history-panel, .popout, #chatlog, .app-right, #playlist-panel, #playlist-panel .actions, #user-rollover, #footer-user .back, #dashboard, .pop-menu, .p0ne-song-info, .p0ne-settings {
+    background: url(https://i.imgur.com/CN0s4tJ.png) !important;
+}*/
+/*
+.app-header {
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 1) 0,rgba(0, 0, 0, .2) 100%) !important;
+}*/
+
+
+.app-header {
+    background: linear-gradient(to bottom,rgba(46, 0, 116, 1) 0,rgba(83, 30, 104, .2) 100%) !important;
+}
+
+/*Playlist footer durchsichtig*/ /*
+
+#footer {
+    background: linear-gradient(to bottom,rgba(0, 0, 0, 0) 100%,rgba(0, 0, 0,) 0%) !important;
+}*/
+
+#footer {
+    background: linear-gradient(to top,rgba(0, 0, 0, 1) 0,rgba(0, 0, 0, .2) 100%) !important;
+}
+#playlist-button{
+    background: linear-gradient(to top,rgba(146, 90, 255, .1) 0,rgba(0, 0, 0, .2) 100%) !important;  
+}    
+
+/*hellere namen fÃ¼r "Veranstalter / aktueller dj"*/
+.dark-label, .user-content .header span, #app-menu .list, #app-menu a, .user-content.profile .meta .joined{
+    color: #bbb !important
+}
+
+/*nA*/
+#playlist-panel .button, #chat .moderation, #chat .skip, #chat .update, #chat .welcome, #footer-user .item, #user-inventory>.avatars .avatar, #user-menu .avatar, #user-view .cell, #waitlist .list .user, #room-info .button, .dialog-body, #search-suggestion ul, #search-suggestion li, #app-menu .list, .app-right .friends, .pop-menu ul, #history-button, #user-rollover .meta, #footer-user, #user-menu, #dialog-ban-user .duration .toggle, #dialog-mute-user .duration .toggle, #video-only-dj, #rs-skip-button {
+    background: transparent !important;
+}
+
+/*transparenter hintergrund fÃ¼r den history knopf*/
+#history-button.selected {
+    background: 0 0;
+    border-left: transparent !important;
+    border-right: transparent !important;
+}
+
+/*transparenter chat*/ 
+#chat .cm:nth-child(2n+1) {
+    background-color: rgba(0, 0, 0, 0);
+}
+#room .app-right {
+    background: rgba(0, 0, 0, .7) !important;
+}
+
+
+.header-panel-button.selected {
+    border-right: none;
+    background-color: rgba(0, 0, 0, .7);
+    cursor: default;
+}
+.header-panel-button{
+    border-right: none;
+}
+
+#app-menu.in-room .list {
+    background: none;
+}
+
+/*Booth PNG*/
+
+#dj-booth{background:url(https://i.imgur.com/ExFefQ5.png)45px 125px no-repeat;background-size:250px}
+
+/*
+#history-panel, .popout, #chatlog, .app-right, #playlist-panel, #playlist-panel .actions, #user-rollover, #footer-user .back, #dashboard, .pop-menu, .p0ne-song-info, .p0ne-settings {
+    background: rgba(0, 0, 0, .7) !important;
+}*/
+
+/*playlist kram*/
+#playlist-menu {
+    background: rgba(27, 31, 37, 0.8);
+}
+#search{
+	background: none;
+}
+
+/*ka chat delete shit*/
+#chat-messages .cm .delete-timestamp {
+    display: block !important;
+    color: #B00;
+    padding-right: 6px;
+    float: none;
+    text-align: right;
+}
+.communities .box{
+	margin-top: 0px;
+}
+.jspContainer{
+    height: 710px;
+}
+#user-view{
+    background: rgba(17, 19, 23, 0);
+}
+#user-menu {
+    background: rgba(0, 0, 0, .8) !important;
+}
+.user-content.profile .notifications .row{
+    background: rgba(0, 0, 0, .6) !important;
+}
+#user-view .user-content{
+    background: rgba(17, 19, 23, 0.8);
+}/*
+#user-view .user-content{
+    background: url(https://i.imgur.com/Vkjxhpk.png) !important;
+}*/
+#user-settings .container .item span{
+    color: rgba(160, 164, 171, 1);
+}
+#user-rollover .info{
+    background: transparent !important;
+}
+#user-rollover .actions .action:hover{
+    background: url(http://i.imgur.com/bdYhEez.png) !important;
+}
+#user-rollover .actions .friend, #user-rollover .actions .action:hover, #user-rollover .actions .ignore, #user-rollover .actions .giftsub{
+    box-shadow: none;
+}/*
+#user-rollover .actions .action:hover{
+    box-shadow: none;
+}
+#user-rollover .actions .ignore{
+    box-shadow: none;
+}*/
+#dj-button{
+    background: url(http://i.imgur.com/bdYhEez.png) fixed center center / cover !important;
+}
+#vote .crowd-response{
+    background: url(http://i.imgur.com/bdYhEez.png) fixed center center / cover;
+}
+#woot .bottom, #woot.selected {
+    background: #90ad2f !important;
+}
+#meh .bottom, #meh.selected {
+    background: #c42e3b !important;
+}
+#grab .bottom, #grab.selected {
+    background: #aa74ff !important;
+}
+#grab .bottom, #grab.selected {
+    background: #aa74ff !important;
+}
+#vote .crowd-response.selected{
+    box-shadow: none !important
+}
+/*
+ #meh.selected{
+    background: #c42e3b !important;
+}*/
+#pi-delchat .icon-delete{
+    left: 1000px !important;
+}
+#room-settings{
+    background: none;
+}
+#room-settings .general-settings{
+    background: url(https://i.imgur.com/Vkjxhpk.png) !important;
+}
+#room-settings-menu{
+    background: url(https://i.imgur.com/bdYhEez.png) !important;
+}
+#waitlist .header .divider{
+    background: transparent;
+}
+#chat-header .divider{
+    background: transparent;
+}
+#user-lists .header .divider{
+    background: transparent;
+}
+.app-right .friends .header{
+	background: rgba(0, 0, 0, .7) !important;
+}
+#user-lists .header, #waitlist .header{
+    border-bottom: transparent
+}
+.app-header{
+    box-shadow: -343.8px 2px 0 -1px #0a0a0a;
+}
+#pi-logo, #icon{
+    box-shadow: none !important
+}
+#history-button{
+    box-shadow: none !important
+}
+#user-rollover .actions .mod-ban, #user-rollover .actions .mod-waitlist-ban{
+    box-shadow: none
+}
+#user-rollover .actions .mod-mute{
+    box-shadow: none
+}
+#user-rollover .actions .mod-staff{
+    box-shadow: none
+}
+#user-rollover .actions .mod-dj{
+    box-shadow: none
+}
+#chat-messages .text a{
+    color: #0DD;
+    text-decoration: none;
+}
+#chat-messages .text a:visited {
+    color: #009cdd;
+}
+#dj-button .left {
+    background: linear-gradient(to bottom,rgba(0,46,230,.75) 0,rgba(0,177,221,.75) 100%);
+}
+#chat #chat-input {
+    background: rgba(0,0,0,.25);
+}
+/*RCS*/
+#rcs-progress-container {
+    background-color: #14151966;
+}
+}
+
+@-moz-document domain("plug.dj") {
+/*
+  ____       _       _                      ____      _            
+ |  _ \ __ _(_)_ __ | |__   _____      __  / ___|___ | | ___  _ __ 
+ | |_) / _` | | '_ \| '_ \ / _ \ \ /\ / / | |   / _ \| |/ _ \| '__|
+ |  _ < (_| | | | | | |_) | (_) \ V  V /  | |__| (_) | | (_) | |   
+ |_| \_\__,_|_|_| |_|_.__/ \___/ \_/\_/    \____\___/|_|\___/|_|   
+                                                                  
+*/
+#chat [data-cid^='5624117-'] .un{
+    animation: rainbow 3s linear infinite;
+    color: lime;
+}
+#chat [data-cid^='5407719-'] .un{
+    animation: rainbow 3s linear infinite;
+    color: lime;
+}
+#chat [data-cid^='196490-'] .un{
+    color: #DB7821 !important;
+}
+.legacy-footer #footer-user .info .name {
+    animation: rainbow 3s linear infinite;
+    color: lime;
+}
+#chat .p0ne-notif-loaded {
+    animation: rainbow 2s linear infinite;
+    color: lime;
+}
+.p0ne-fimstats-first-notyet {
+    animation: rainbow 2s linear infinite;
+    color: lime;
+}
+.legacy-footer #footer-user .info .name {
+    animation: rainbow 3s linear infinite;
+    color: lime
+}
+.is-you .name {
+    animation: rainbow 3s linear infinite;
+    color: lime;
+}
+.user-content.profile .meta .username {
+    color: lime;
+    animation: rainbow 3s linear infinite;
+}
+.legacy-footer #footer-user.online .info .meta .bar {
+    animation: rainbow 15s linear infinite;
+}
+.experience .xp .bar {
+    animation: rainbow 15s linear infinite;
+}
+@keyframes rainbow {
+    0% {  filter: hue-rotate(0deg);  }
+  100% {  filter: hue-rotate(360deg);  }
+}
+}
+
+@-moz-document domain("plug.dj") {
+/*
+         ___                __ _      
+  _ __  / _ \ _ __   ___   / _(_)_  __
+ | '_ \| | | | '_ \ / _ \ | |_| \ \/ /
+ | |_) | |_| | | | |  __/ |  _| |>  < 
+ | .__/ \___/|_| |_|\___| |_| |_/_/\_\
+ |_|                                  
+
+*/
+
+.p0ne-settings-popup {
+    left: 387px !important;
+}
+#chat .cm.pi-log {
+    box-shadow: none !important;
+    background: rgba(0, 0, 0, 0.37) !important;
+    border-left: 3px solid #02BBFF;
+}
+#chat .cm.pi-info{
+    box-shadow: none !important;
+    background: rgba(0, 0, 0, 0.37) !important;
+    border-left: 3px solid #884BD3;
+}/*
+#chat .cm.pi-info .msg .from .un, #chat .cm.pi-info .msg .from .timestamp {
+    color: #8230FF !important;
+}
+
+#chat .cm.pi-log {
+    box-shadow: inset 0 0 0 1px hsl(210,50%,30%) !important;
+    background: rgba(0, 0, 0, 0.37) !important;
+}
+*/
+}
+
+@-moz-document domain("zockercraft") {
+#chat .user-action .msg{
+    border-left: 1px solid #FFB400;
+    box-shadow: inset 0 0 0 2px  #FFB400 !important;
+}
+}
