@@ -1,0 +1,150 @@
+@-moz-document domain("plug.dj") {
+/*
+  ____  _               _____ _      
+ |  _ \| |_   _  __ _  |  ___(_)_  __
+ | |_) | | | | |/ _` | | |_  | \ \/ /
+ |  __/| | |_| | (_| | |  _| | |>  < 
+ |_|   |_|\__,_|\__, | |_|   |_/_/\_\
+                |___/                
+*/
+#androidbadge-menu{
+   top: 100px !important;
+}
+#iosbadge-menu{
+   top: 100px !important;
+}
+.html5-video-player .ad-overlay{
+   right: 100000px !important;
+}
+.html5-video-player .ad-overlay>.ima-container{
+   right: 100000px !important;
+}
+.html5-video-player .ad-overlay>.ima-container>*{
+   right: 100000px !important;
+}
+#playlist-meta.sub #subscribebtn-menu{
+   right: 100000px !important;
+}/*
+.cm .userInfo{
+    color: #FF2929 !important;
+}*/
+.social-menu .signup{
+    top: 100px !important
+}
+#subscribebtn-menu{
+    top: 100px !important
+}
+#footer-user .info .pp {
+    position: relative;
+}
+.communities .box, .jspContainer{
+    margin-top: 0px !important;
+    height: 887px;
+}
+.media-list {
+    position: relative;
+    z-index: 1;
+    overflow: auto;
+    width: 100%;
+    height: 950px !important;
+    font-size: 14px;
+}
+}
+
+@-moz-document domain("plug.dj") {
+/*
+  ____       _       _                      ____      _            
+ |  _ \ __ _(_)_ __ | |__   _____      __  / ___|___ | | ___  _ __ 
+ | |_) / _` | | '_ \| '_ \ / _ \ \ /\ / / | |   / _ \| |/ _ \| '__|
+ |  _ < (_| | | | | | |_) | (_) \ V  V /  | |__| (_) | | (_) | |   
+ |_| \_\__,_|_|_| |_|_.__/ \___/ \_/\_/    \____\___/|_|\___/|_|   
+                                                                  
+*/
+#chat [data-cid^='5624117-'] .un{
+    animation: rainbow 3s linear infinite;
+    color: lime;
+}
+#chat [data-cid^='5407719-'] .un{
+    animation: rainbow 3s linear infinite;
+    color: lime;
+}
+#chat [data-cid^='196490-'] .un{
+    color: #DB7821 !important;
+}
+.legacy-footer #footer-user .info .name {
+    animation: rainbow 3s linear infinite;
+    color: lime;
+}
+#chat .p0ne-notif-loaded {
+    animation: rainbow 2s linear infinite;
+    color: lime;
+}
+.p0ne-fimstats-first-notyet {
+    animation: rainbow 2s linear infinite;
+    color: lime;
+}
+.legacy-footer #footer-user .info .name {
+    animation: rainbow 3s linear infinite;
+    color: lime
+}
+.is-you .name {
+    animation: rainbow 3s linear infinite;
+    color: lime;
+}
+.user-content.profile .meta .username {
+    color: lime;
+    animation: rainbow 3s linear infinite;
+}
+.legacy-footer #footer-user.online .info .meta .bar {
+    animation: rainbow 15s linear infinite;
+}
+.experience .xp .bar {
+    animation: rainbow 15s linear infinite;
+}
+@keyframes rainbow {
+    0% {  filter: hue-rotate(0deg);  }
+  100% {  filter: hue-rotate(360deg);  }
+}
+}
+
+@-moz-document domain("plug.dj") {
+/*
+         ___                __ _      
+  _ __  / _ \ _ __   ___   / _(_)_  __
+ | '_ \| | | | '_ \ / _ \ | |_| \ \/ /
+ | |_) | |_| | | | |  __/ |  _| |>  < 
+ | .__/ \___/|_| |_|\___| |_| |_/_/\_\
+ |_|                                  
+
+*/
+
+.p0ne-settings-popup {
+    left: 387px !important;
+}
+#chat .cm.pi-log {
+    box-shadow: none !important;
+    background: rgba(0, 0, 0, 0.37) !important;
+    border-left: 3px solid #02BBFF;
+}
+#chat .cm.pi-info{
+    box-shadow: none !important;
+    background: rgba(0, 0, 0, 0.37) !important;
+    border-left: 3px solid #884BD3;
+}/*
+#chat .cm.pi-info .msg .from .un, #chat .cm.pi-info .msg .from .timestamp {
+    color: #8230FF !important;
+}
+
+#chat .cm.pi-log {
+    box-shadow: inset 0 0 0 1px hsl(210,50%,30%) !important;
+    background: rgba(0, 0, 0, 0.37) !important;
+}
+*/
+}
+
+@-moz-document domain("zockercraft") {
+#chat .user-action .msg{
+    border-left: 1px solid #FFB400;
+    box-shadow: inset 0 0 0 2px  #FFB400 !important;
+}
+}
